@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/currencyconvertor/precache-manifest.bd720f368a495370451f3ee7353e2b9c.js"
+  "/CurrencyConvertor/precache-manifest.4620708bca5b78244d9beb814669d18b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/currencyconvertor/index.html", {
+workbox.routing.registerNavigationRoute("/CurrencyConvertor/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
