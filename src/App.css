@@ -1,0 +1,65 @@
+.child {
+ position: absolute;
+  top: 10%;
+  left: 43%;
+
+}
+
+.convertorCard {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.formControl {
+  display: block;
+  min-width: 120px;
+  background-image: red;
+}
+
+.cards1 {
+  padding-top: 25%;
+  padding-left: 20%;
+}
+
+.cards2 {
+  padding-top: 25%;
+  padding-left: 35%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.App {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  min-height: 100vh;
+}
+
+.flipboard{
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.cardbodyfront{
+  margin: 10px;
+  min-height: 400px;
+  background-image: url('./Images/pc1.png');
+  background-size:cover;
+  background-position:top;
+}
+
+.cardbodyback{
+  margin: 10px;
+  min-height: 400px;
+  background-color: white;
+  background-image: url('./Images/pc2.png');
+  background-size:cover;
+  background-position:top;
+}
+
+.frame {
+  padding: 30px;
+}
+
